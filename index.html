@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heartbeat</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="home"  class="main-container">
+      <div class="rectangle">
+        <div class="frame">
+          <div class="frame-1">
+            <div class="vector"></div>
+            <span class="heartbeat">Heartbeat</span>
+          </div>
+          <nav class="nav">
+            <a href="#home" class="frame-2"><span class="home">Home</span></a>
+            <a href="#abstract" class="frame-3"><span class="abstract">Abstract</span></a>
+            <a href="#devices" class="frame-4"><span class="devices">Devices</span></a>
+            <a href="#source-code" class="frame-5"><span class="source-code">Source Code</span></a>
+            <a href="#members" class="frame-6"><span class="members">Members</span></a>
+          </nav>
+        </div>
+      </div>
+      <div id="devices" class="devices-7">
+        <span class="devices-used">อุปกรณ์ที่ใช้ (Devices)</span>
+        <div class="img">
+          <div class="frame-8">
+            <div class="arduino"></div>
+            <span class="arduino-r4">Arduino R4</span>
+          </div>
+          <div class="frame-9">
+            <div class="lcd"></div>
+            <span class="lcd-a">LCD</span>
+          </div>
+          <div class="frame-b">
+            <div class="pluse"></div>
+            <span class="pulse-sensor">Pulse Sensor</span>
+          </div>
+        </div>
+      </div>
+      <div id="source-code" class="source-code-c">
+        <div class="frame-d">
+          <div class="group">
+            <span class="source-code-e">Source Code</span>
+          </div>
+          <div class="chat-bot">
+            <a class="github-link" href="https://github.com/Nettaekrub/Phycom-Project/blob/main/Backend/index.js">github (Line Chat Bot) : https://github.com/Nettaekrub/Phycom-Project/blob/main/Backend/index.js</a>
+          </div>
+          <div class="arduino-f">
+            <a class="github-link-10" href="https://github.com/Nettaekrub/Phycom-Project/blob/main/Arduino/Heartrate.ino">github (Arduino) :https://github.com/Nettaekrub/Phycom-Project/blob/main/Arduino/Heartrate.ino</a>
+          </div>
+        </div>
+      </div>
+      <div class="members-12">
+        <span  id="members" class="members-13">Members</span>
+        <div class="img-14">
+          <div class="frame-15">
+            <div class="rectangle-16"></div>
+            <span class="name-tag">นางสาวปทิตตา ดวงแก้ว<br />66070114</span>
+          </div>
+          <div class="frame-17">
+            <div class="name-tag-18"></div>
+            <span class="name-tag-19"
+              >นายปิยพล อินทร์ตลาดชุม<br />66070118</span
+            >
+          </div>
+          <div class="frame-1a">
+            <div class="rectangle-1b"></div>
+            <span class="name-tag-1c">นายพีรพัฒน์ มีแสงเงิน<br />66070138</span>
+          </div>
+          <div class="frame-1d">
+            <div class="image"></div>
+            <span class="name-tag-1e"
+              >นางสาว อัญชิษฐา แก้วรอดฟ้า<br />66070223
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-1f">
+        <span class="name-tag-20">Made by เทวดาตัวน้อยทั้ง 4</span>
+      </div>
+      <div class="home-21">
+        <div class="header">
+          <div class="frame-22">
+            <div class="group-23">
+              <span class="arduino-heartbeat">Arduino Heartbeat</span
+              ><span class="jatutewada-pithaksa-atrachip"
+                >จตุเทวดา พิทักษา อัตราชีพ</span
+              >
+            </div>
+            <div class="group-24"></div>
+          </div>
+        </div>
+      </div>
+      <div class="vector-25"></div>
+      <div class="abstract-26">
+        <div class="frame-27">
+          <span id="abstract" class="abstract-28">บทคัดย่อ (Abstract)</span
+          ><span class="project-description">
+            โครงการนี้ออกแบบอุปกรณ์ IoT
+            สำหรับตรวจวัดอัตราการเต้นของหัวใจแบบเรียลไทม์
+            เพื่อสนับสนุนการดูแลสุขภาพหัวใจ
+            โดยเฉพาะผู้ป่วยโรคหัวใจหรือผู้ที่ต้องการเฝ้าระวังสุขภาพอย่างต่อเนื่อง
+            อุปกรณ์ใช้ Pulse Sensor
+            ซึ่งติดตั้งบนไมโครคอนโทรลเลอร์ที่เชื่อมต่อกับ Wi-Fi เพื่อวัดค่าชีพจร
+            (BPM) และส่งข้อมูลแบบเรียลไทม์ไปยัง LINE chat bot
+            เมื่อพบชีพจรผิดปกติ ระบบจะส่งการแจ้งเตือนทันทีผ่าน LINE
+            ทำให้ผู้ใช้สามารถดำเนินการได้อย่างรวดเร็ว นอกจากนี้
+            ค่าชีพจรจะถูกแสดงบนจอ LCD สำหรับการตรวจสอบเบื้องต้นและเก็บบันทึกลงใน
+            LINE chat bot เพื่อให้เข้าถึงข้อมูลย้อนหลังได้
+            ผู้ใช้สามารถตั้งค่าเปิด-ปิดการใช้งานตามความต้องการ
+            อุปกรณ์นี้ถูกออกแบบให้มีราคาไม่สูงและสามารถพัฒนาต่อยอดได้ง่าย
+            เหมาะสำหรับผู้ใช้ทั่วไปและผู้ป่วยที่ต้องการตรวจสอบอัตราการเต้นของหัวใจอย่างสม่ำเสมอ</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
